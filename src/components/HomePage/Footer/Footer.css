@@ -1,0 +1,6 @@
+.icon:hover {
+  color: rgb(108, 218, 218);
+  font-size: 2rem;
+  transition: all 0.3s linear;
+  transform: scale(120%);
+}

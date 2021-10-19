@@ -1,0 +1,13 @@
+.info {
+  background-image: url("../../../images/info/front-view-doctor-holding-stethoscope_23-2148854111.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10%;
+  margin-top: 5%;
+}
+.cart {
+  max-width: 230px;
+}

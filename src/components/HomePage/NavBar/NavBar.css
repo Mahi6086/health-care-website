@@ -1,0 +1,4 @@
+.nav-link:hover {
+  transition: all 0.3s linear;
+  font-size: 18px;
+}

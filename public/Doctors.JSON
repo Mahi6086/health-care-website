@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Balestra DJ.",
+    "img": "https://i.ibb.co/B3F94DP/photo-1591604021695-0c69b7c05981.jpg",
+    "specialist": "Cardiology Specialist"
+  },
+  {
+    "name": "Bennett HJ.",
+    "img": "https://i.ibb.co/28b7KSf/doctor02.jpg",
+    "specialist": "Gastroenteriogy Specialist"
+  },
+  {
+    "name": "Casler L.",
+    "img": "https://i.ibb.co/hcxxZgW/doctor03.jpg",
+    "specialist": "Neurology Specialist"
+  },
+  {
+    "name": "Christenfeld N",
+    "img": "https://i.ibb.co/5rHJqL6/doctor04.jpg",
+    "specialist": "Dental Specialist"
+  },
+  {
+    "name": "Strumpfer DJW",
+    "img": "https://i.ibb.co/HV42X1F/doctor05.jpg",
+    "specialist": "Pulmonology Specialist"
+  },
+  {
+    "name": "Nuessel F.",
+    "img": "https://i.ibb.co/BP5GRr7/Portrait-of-a-smiling-male-doctor-dressed-in-uniform-with-stethoscope-standing-and-pointing-finger-a.jpg",
+    "specialist": "Medicine Specialist"
+  },
+  {
+    "name": "Luscri G",
+    "img": "https://i.ibb.co/fpWHjXB/doctor07.jpg",
+    "specialist": "Orthopedics Specialist"
+  },
+  {
+    "name": "Joubert CE.",
+    "img": "https://i.ibb.co/hF27F9R/doctor08.jpg",
+    "specialist": "nephrology & Urology Specialist"
+  },
+  {
+    "name": "Glynn LM",
+    "img": "https://i.ibb.co/YN8CNQH/photo-1618498082410-b4aa22193b38.jpg",
+    "specialist": "Oncology Specialist"
+  }
+]
