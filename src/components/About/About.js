@@ -74,14 +74,12 @@ const About = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
+                  Mediciva Hospitals benchmarks with the best among the world’s
+                  service organizations to create a culture of Patient
+                  Engagement with a service vision of “Offering Care beyond
+                  Compare”. Our biggest asset is our engaged workforce that
+                  takes pride in their work and ensures that every transaction
+                  is converted into memorable experience for our Patients.
                   overflow.
                 </div>
               </div>
@@ -106,14 +104,12 @@ const About = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
+                  Mediciva Hospitals benchmarks with the best among the world’s
+                  service organizations to create a culture of Patient
+                  Engagement with a service vision of “Offering Care beyond
+                  Compare”. Our biggest asset is our engaged workforce that
+                  takes pride in their work and ensures that every transaction
+                  is converted into memorable experience for our Patients.
                   overflow.
                 </div>
               </div>
@@ -138,14 +134,12 @@ const About = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
+                  Mediciva Hospitals benchmarks with the best among the world’s
+                  service organizations to create a culture of Patient
+                  Engagement with a service vision of “Offering Care beyond
+                  Compare”. Our biggest asset is our engaged workforce that
+                  takes pride in their work and ensures that every transaction
+                  is converted into memorable experience for our Patients.
                   overflow.
                 </div>
               </div>
@@ -170,14 +164,12 @@ const About = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
+                  Mediciva Hospitals benchmarks with the best among the world’s
+                  service organizations to create a culture of Patient
+                  Engagement with a service vision of “Offering Care beyond
+                  Compare”. Our biggest asset is our engaged workforce that
+                  takes pride in their work and ensures that every transaction
+                  is converted into memorable experience for our Patients.
                   overflow.
                 </div>
               </div>
