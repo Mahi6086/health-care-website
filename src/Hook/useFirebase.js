@@ -17,39 +17,47 @@ const useFirebase = () => {
   const auth = getAuth();
   const provider = new GoogleAuthProvider();
 
+  const [isLoading, setLoading] = useState(true);
+
   const [user, setUser] = useState({});
   const [error, setError] = useState("");
 
   const handleGoogleLogin = () => {
+    setLoading(true);
+
     signInWithPopup(auth, provider)
       .then((result) => {
         setUser(result.user);
         // console.log(result.user);
         setError("");
       })
-      .catch((error) => setError(error.message));
+      //
+      .finally(() => setLoading(false));
   };
 
+  //observer user state change
   useEffect(() => {
-    onAuthStateChanged(auth, (user) => {
+    const unsubscribed = onAuthStateChanged(auth, (user) => {
       if (user) {
         setUser(user);
-        const uid = user.uid;
+        // const uid = user.uid;
       } else {
-        // User is signed out
-        // ...
+        setUser({});
       }
+      setLoading(false);
     });
+    return () => unsubscribed;
   }, []);
 
   const handleLogout = () => {
+    setLoading(true);
     signOut(auth)
       .then(() => {
         setUser({});
       })
-      .catch((err) => {
-        console.log(err);
-      });
+      .finally(() => setLoading(false));
+    // .catch((err) => {
+    //   console.log(err);
   };
 
   const handleUserRegister = (email, password) => {
@@ -73,6 +81,7 @@ const useFirebase = () => {
   };
 
   return {
+    isLoading,
     handleGoogleLogin,
     user,
     handleLogout,

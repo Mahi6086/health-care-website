@@ -76,6 +76,7 @@ const Login = () => {
                   aria-label="Password"
                 />
               </div>
+              <div className="text-danger">{erro}</div>
             </div>
             <br />
             <div className="col-12 ">
