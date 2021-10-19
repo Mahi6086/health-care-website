@@ -57,26 +57,28 @@ const Login = () => {
             <h1 className="mt-3 fw-bolder">Signin or Create an Account</h1>
             <br />
             <div className="row ">
-              <div className="col col-12 col-md-6 ">
+              <div className="col col-12 col-md-12 mb-4">
                 <input
-                  onClick={hanldeEmail}
+                  onChange={hanldeEmail}
                   type="text"
                   className="form-control p-2 border border-2 border-info"
+                  required
                   placeholder="Your Email"
                   aria-label="Email"
                 />
               </div>
               <br />
-              <div className="col col-12 col-md-6 ">
+              <div className="col col-12 col-md-12 ">
                 <input
-                  onClick={hanldePassword}
+                  onChange={hanldePassword}
                   type="password"
                   className="form-control p-2 border border-2 border-info"
                   placeholder="Your Password"
                   aria-label="Password"
+                  required
                 />
               </div>
-              <div className="text-danger">{erro}</div>
+              <div className="text-danger fw-bolder">{erro}</div>
             </div>
             <br />
             <div className="col-12 ">
