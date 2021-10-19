@@ -3,7 +3,7 @@
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   height: 800px;
   width: 100%;
-  background-blend-mode: overlay;
+  background-blend-mode: darken;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
   /* margin-top: -300px; */
   color: black;
   font-weight: bold;
-  font-size: 59px;
+  font-size: 70px;
 }
 .about-btn {
   border: 3px solid #62b7d3;

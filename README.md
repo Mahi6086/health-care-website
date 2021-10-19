@@ -1,5 +1,33 @@
 # Getting Started with Create React App
 
+This Healthcare website was react-authentication & react-router with [Code Learn](https://objective-johnson-e3ddeb.netlify.app/).
+
+### Demo This website
+
+This is a Health-Care Website where you can treatment from world top qualityful doctors, 24/7 services & special care. You can services from Cardiology department, Orthopadics department, Detalist, Neurology, Oncology, Nephrulogy & Gastroenterlogy deaprtment.
+
+### About Mediciva Doctors
+
+We are Mediciva. Health is the Next big thing.
+
+Mediciva has Qualityful Doctors to give special service for patients. Our has Medicine Specialist, Dentalist, Neurologist, Cardiologist, Gastroenterlogist, Orthopadist, Nephrulogist, oncologist as patient can showing doctors for any dieases.Health become should be top priority to everyone.We works for patients & want to with patient.
+
+### Mission & Vision of Mediciva
+
+Mediciva's vision for the next phase of development is to ‘Touch a Billion Lives’.
+
+Our mission is to bring healthcare of International standards within the reach of every individual. We are committed to the achievement and maintenance of excellence in education, research and healthcare for the benefit of humanity”.Health is Everything.
+
+### Features Of This Project
+
+The used Api was entirely created by me. The data here are collected from programming hero facebook group and the moderstors profile. The cart will update dynamically if you wanted hire one or multiple developers. The Team members, their numbers and the budget will update itself dynamically. This is completely responsive. As it was styled with bootstrap. This site was deployed on Netlify. The link is provided in the top. The only bug of this site is that you can hire a single developer multiple times in a single project. That is unrealistic.
+
+### Used Resouces
+
+In the project, we used: This was my first offical project on react-authentication & Second on React router. I used Bootstrap to style the whole project. Some Pure CSS was used in this project!
+
+<!-- # Getting Started with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +96,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ -->

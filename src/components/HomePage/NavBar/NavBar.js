@@ -102,7 +102,7 @@ const NavBar = () => {
                   <Link to="/login">
                     <button
                       type="button"
-                      className="btn btn-info fw-bold mt-1 ms-1"
+                      className="btn btn-info fw-bold mt-3 ms-1"
                     >
                       Log In<i className="fas fa-sign-in-alt ms-2 fw-bold"></i>
                     </button>
@@ -110,7 +110,7 @@ const NavBar = () => {
                 )}
                 <p style={{ marginTop: "17px" }} className="ms-2 fw-bold">
                   Signed in as:
-                  <a href="#login" className="text-info ">
+                  <a href="#login" className="text-info ms-1">
                     {user.displayName}
                   </a>
                 </p>
