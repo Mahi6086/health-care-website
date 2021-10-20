@@ -63,9 +63,9 @@ const Login = () => {
                   onChange={hanldeEmail}
                   type="text"
                   className="form-control p-2 border border-2 border-info"
-                  required
-                  placeholder="Your Email"
+                  placeholder="Your E-mail"
                   aria-label="Email"
+                  required
                 />
               </div>
               <br />
@@ -79,7 +79,9 @@ const Login = () => {
                   required
                 />
               </div>
-              <div className="text-danger fw-bolder">{erro}</div>
+              <div className="text-danger text-start mt-1 fw-bolder">
+                {erro}
+              </div>
             </div>
             <br />
             <div className="col-12 ">
@@ -88,7 +90,8 @@ const Login = () => {
                 type="button"
                 className="btn btn-info fw-bold ps-3 pe-3"
               >
-                Log In<i className="fas fa-sign-in-alt ms-2 fw-bold"></i>
+                Log In
+                <i className="fas fa-sign-in-alt ms-2 fw-bold"></i>
               </button>
 
               <button

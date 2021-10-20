@@ -11,7 +11,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   margin: 0px;
 }
 .title {
@@ -37,4 +37,11 @@ body {
 .about-btn:hover {
   background-color: #62b7d3;
   color: white;
+}
+
+@media only screen and (max-width: 688px) {
+  .banner {
+    background-attachment: none;
+    width: 100%;
+  }
 }
