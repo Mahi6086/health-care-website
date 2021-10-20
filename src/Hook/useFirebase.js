@@ -25,14 +25,16 @@ const useFirebase = () => {
   const handleGoogleLogin = () => {
     setLoading(true);
 
-    signInWithPopup(auth, provider)
-      .then((result) => {
-        setUser(result.user);
-        // console.log(result.user);
-        setError("");
-      })
-      //
-      .finally(() => setLoading(false));
+    return (
+      signInWithPopup(auth, provider)
+        // .then((result) => {
+        //   setUser(result.user);
+        //   // console.log(result.user);
+        //   setError("");
+        // })
+        //
+        .finally(() => setLoading(false))
+    );
   };
 
   //observer user state change

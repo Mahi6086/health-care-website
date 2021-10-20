@@ -20,6 +20,9 @@ body {
   font-weight: bold;
   font-size: 70px;
 }
+.descrip {
+  font-size: 1.3rem;
+}
 
 .about-btn {
   border: 3px solid #62b7d3;
@@ -41,7 +44,14 @@ body {
 
 @media only screen and (max-width: 688px) {
   .banner {
-    background-attachment: none;
     width: 100%;
+    background-position-x: right;
+    background-position-y: center;
+  }
+  .title {
+    font-size: 60px;
+  }
+  .descrip {
+    font-size: 18px;
   }
 }

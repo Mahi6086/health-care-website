@@ -16,7 +16,7 @@ const Header = () => {
               <span className="text-info">Health</span> Should Be <br /> Your{" "}
               <span className="text-info">Top Priority</span>
             </h1>
-            <p className="text-black fw-bolder mt-3 fs-5">
+            <p className=" descrip text-black fw-bolder mt-3">
               Being healthy is important because it can help a person have a
               stronger heart,
               <br /> better muscles, stronger bones, a sense of well-being and a

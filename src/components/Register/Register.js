@@ -1,16 +1,9 @@
 import React, { useState } from "react";
-import { Link, useLocation, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import useAuth from "../../Hook/useAuth";
-// import useFirebase from "../../Hook/useFirebase";
 import logo from "../../images/logo/logo3.png";
-import "./Login.css";
-
-const Login = () => {
-  const { handleGoogleLogin, user, handleUserRegister, handleUserLogin } =
-    useAuth();
-  const location = useLocation();
-  const history = useHistory();
-  const redirect_url = location.state?.from || "/home";
+const Register = () => {
+  const { handleGoogleLogin, user, handleUserRegister } = useAuth();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -22,38 +15,19 @@ const Login = () => {
   };
   const hanldePassword = (e) => {
     setPassword(e.target.value);
-    handleUserLogin(email, password);
+  };
+
+  // console.log(email, password);
+
+  const handleRegister = (e) => {
+    e.preventDefault();
+    handleUserRegister(email, password);
+
     if (password.length < 6) {
       setErro("Password must be at least 6 characters long");
       return;
     }
   };
-
-  // console.log(email, password);
-
-  // const handleRegister = (e) => {
-  //   e.preventDefault();
-  //   handleUserRegister(email, password);
-
-  //   if (password.length < 6) {
-  //     setErro("Password must be at least 6 characters long");
-  //     return;
-  //   }
-  // };
-
-  const handleLogin = () => {
-    handleUserLogin(email, password);
-  };
-
-  const signInUsinGoogleLogin = () => {
-    handleGoogleLogin().then((result) => {
-      history.push(redirect_url);
-      // setUser(result.user);
-      // // console.log(result.user);
-      // setError("");
-    });
-  };
-
   return (
     <div className="container mt-5">
       <div className="text-center">
@@ -72,7 +46,7 @@ const Login = () => {
           </div>
           <br />
           <div className="border border-2 border-info shadow rounded-3">
-            <h1 className="mt-3 fw-bolder">Login or create an Account</h1>
+            <h1 className="mt-3 fw-bolder">Create an Account</h1>
             <br />
             <div className="row ">
               <div className="col col-12 col-md-12 mb-4">
@@ -101,36 +75,35 @@ const Login = () => {
               </div>
             </div>
             <br />
-            <div className="col-12">
-              <button
-                onClick={handleLogin}
-                type="button"
-                className="btn btn-info fw-bold ps-3 pe-3"
-              >
-                Log In
-                <i className="fas fa-sign-in-alt ms-2 fw-bold"></i>
-              </button>
-              <Link to="/register">
-                <button
-                  // onClick={handleRegister}
+            <div className="col-12 ">
+              {/* <button
+                  onClick={handleLogin}
                   type="button"
-                  className="btn btn-info fw-bold ms-2"
+                  className="btn btn-info fw-bold ps-3 pe-3"
                 >
-                  Register<i className="fas fa-sign-in-alt ms-2 fw-bold"></i>
-                </button>
-              </Link>
+                  Log In
+                  <i className="fas fa-sign-in-alt ms-2 fw-bold"></i>
+                </button> */}
+
+              <button
+                onClick={handleRegister}
+                type="button"
+                className="btn btn-info fw-bold ms-2"
+              >
+                Register<i className="fas fa-sign-in-alt ms-2 fw-bold"></i>
+              </button>
             </div>
-            <div className="text-info mt-2">--------------or--------------</div>
+            {/* <div className="text-info mt-2">--------------or--------------</div>
             <div className="col-12 mt-3">
               <button
-                onClick={signInUsinGoogleLogin}
+                onClick={handleGoogleLogin}
                 type="button"
                 className="btn btn-info fw-bold ps-3 pe-3"
               >
                 Google LogIn
                 <i className="fas fa-sign-in-alt ms-2 fw-bold"></i>
               </button>
-            </div>
+            </div> */}
             <div>
               <br />
               <Link
@@ -149,4 +122,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;
