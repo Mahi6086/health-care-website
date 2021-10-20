@@ -2,29 +2,31 @@
 
 This Healthcare website was react-authentication & react-router with [Mediciva](https://healthcare-mediciva-website.netlify.app/).
 
-### Demo This website
-
-This is a Health-Care Website where you can treatment from world top qualityful doctors, 24/7 services & special care. You can services from Cardiology department, Orthopadics department, Detalist, Neurology, Oncology, Nephrulogy & Gastroenterlogy deaprtment.
-
-### About Mediciva Doctors
+### About This website
 
 We are Mediciva. Health is the Next big thing.
 
-Mediciva has Qualityful Doctors to give special service for patients. Our has Medicine Specialist, Dentalist, Neurologist, Cardiologist, Gastroenterlogist, Orthopadist, Nephrulogist, oncologist as patient can showing doctors for any dieases.Health become should be top priority to everyone.We works for patients & want to with patient.
-
-### Mission & Vision of Mediciva
+Mediciva has Qualityful Doctors, 24/7 services & special care to give special service for patients. Our has Medicine Specialist, Dentalist, Neurologist, Cardiologist Gastroenterlogist, Orthopadist, Nephrulogist, oncologist as patient can showing doctors for any dieases.Health become should be top priority to everyone.We works for patients & want to with patient.
 
 Mediciva's vision for the next phase of development is to ‘Touch a Billion Lives’.
 
 Our mission is to bring healthcare of International standards within the reach of every individual. We are committed to the achievement and maintenance of excellence in education, research and healthcare for the benefit of humanity”.Health is Everything.
 
+### Used React Authentication
+
+This health care website, we used react authentication from firebase. Our patients can easily taken services from this site, for this we added to contact part, login & register, Google signin part using react-authentication. Patient easily login this site & contact our Doctors.
+
+### Used Private Route
+
+We used this site private route & react authentication from firebase. In this website has two part Doctors & Blog. We used private route this two sections. Normaly you can not enter this two sections. If you want to enter doctors & blog Section , you need to login before enter this two sections.
+
 ### Features Of This Project
 
-The used Api was entirely created by me. The data here are collected from programming hero facebook group and the moderstors profile. The cart will update dynamically if you wanted hire one or multiple developers. The Team members, their numbers and the budget will update itself dynamically. This is completely responsive. As it was styled with bootstrap. This site was deployed on Netlify. The link is provided in the top. The only bug of this site is that you can hire a single developer multiple times in a single project. That is unrealistic.
+The used Api was entirely created by me. The data here are collected from Themeforst website & taken design ideas this site. The Services part will update dynamically if you wanted to show a single service information, click on service button showing details.This is completely responsive. As it was styled with bootstrap. This site was deployed on Netlify. The link is provided in the top. The only bug of this site is that you can hire a single developer multiple times in a single project. That is unrealistic.
 
 ### Used Resouces
 
-In the project, we used: This was my first offical project on react-authentication & Second on React router. I used Bootstrap to style the whole project. Some Pure CSS was used in this project!
+In the project, we used: This was my first offical project on react-authentication & Second on React router.I used private route. React-authentication & private route used from Firebase. I used Bootstrap to style the whole project. Some Pure CSS was used in this project!
 
 <!-- # Getting Started with Create React App
 

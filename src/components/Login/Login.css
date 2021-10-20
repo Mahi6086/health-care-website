@@ -1,0 +1,11 @@
+.login-img {
+  width: 5%;
+  margin: 0px auto;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 688) {
+  .login-img {
+    width: 10%;
+  }
+}

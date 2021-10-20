@@ -9,11 +9,11 @@ const NavBar = () => {
   const { handleLogout, user } = useAuth();
 
   return (
-    <div style={{ backgroundColor: "#3A559A" }} className="sticky-md-top ">
+    <div style={{ backgroundColor: "#3A559A" }} className="sticky-md-top p-2">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
-          <div className="container-fluid">
-            <div className="d-flex">
+          <div className="container-fluid row">
+            <div className="col-md-3 d-flex">
               <img
                 src={logo}
                 style={{ height: "60px", width: "130px" }}
@@ -43,7 +43,7 @@ const NavBar = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div className="navbar-nav ms-auto fs-5">
+              <div className="col-md-9 fs-5 navbar-nav ms-auto">
                 <Link
                   to="/home"
                   className="nav-link fw-bolder mt-2"

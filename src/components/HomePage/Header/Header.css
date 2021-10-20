@@ -1,13 +1,18 @@
+html,
+body {
+  overflow-x: hidden;
+}
 .banner {
   background-image: url("../../../images/Banner/doctor-with-co-workers-analyzing-x-ray_1098-581.png"),
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  height: 800px;
+  height: 1000px;
   width: 100%;
   background-blend-mode: darken;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0px;
 }
 .title {
   /* margin-top: -300px; */
@@ -15,6 +20,7 @@
   font-weight: bold;
   font-size: 70px;
 }
+
 .about-btn {
   border: 3px solid #62b7d3;
   outline: none;

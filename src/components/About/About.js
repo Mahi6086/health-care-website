@@ -1,5 +1,6 @@
 import React from "react";
 import about from "../../images/about/doctor-standing-with-folder-stethoscope_1291-16.jpg";
+import "./About.css";
 const About = () => {
   return (
     <div className="container mt-5">
@@ -18,7 +19,7 @@ const About = () => {
         </p>
       </div>
       <div className="row">
-        <div className="col col-sm-12 col-md-6">
+        <div className="col-12 col-sm-12 col-md-6 mb-5">
           <div className="accordion" id="accordionExample">
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingOne">
@@ -176,8 +177,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="col col-sm-12 col-md-6">
-          <img className="h-100 ms-lg-3 rounded-3 w-auto" src={about} alt="" />
+        <div className="col-12 col-sm-12 col-md-6 mb-5">
+          <img className="h-100 ms-lg-3 rounded-3 img" src={about} alt="" />
         </div>
       </div>
     </div>

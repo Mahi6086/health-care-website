@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import useAuth from "../../Hook/useAuth";
 // import useFirebase from "../../Hook/useFirebase";
-import logo from "../../images/logo/logo.png";
+import logo from "../../images/logo/logo3.png";
+import "./Login.css";
 
 const Login = () => {
   const { handleGoogleLogin, user, handleUserRegister, handleUserLogin } =
@@ -38,16 +39,16 @@ const Login = () => {
 
   return (
     <div className="container mt-5">
-      <div className="text-center mt-5">
-        <div className="row gy-3">
-          <div className="col-12 d-flex justify-content-center align-items-center w-25 mx-auto">
-            <img className="w-25" src={logo} alt="" />
+      <div className="text-center">
+        <div className="row ">
+          <div className="col-12 justify-content-center align-items-center ">
+            <img className="login-img" src={logo} alt="" />
             <h1
               style={{
                 fontSize: "3rem",
                 color: "#47BEE5",
               }}
-              className="navbar-brand fw-bolder mt-1 "
+              className="navbar-brand fw-bolder mt-0"
             >
               Mediciva
             </h1>

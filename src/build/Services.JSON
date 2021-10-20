@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "tittle": "Cardiology",
+    "img": "https://i.ibb.co/SwZRxpK/cardiology1.jpg",
+    "description": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist.Cardiology is a branch of internal medicine."
+  },
+  {
+    "id": 2,
+    "tittle": "Gastroenteriogy",
+    "img": "https://daralhayatbh.com/wp-content/uploads/2020/10/1Gastroentrology.jpg",
+    "description": "Gastroenterology is the study of the normal function and diseases of the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts and liver. It involves a detailed understanding of the normal action (physiology)."
+  },
+  {
+    "id": 3,
+    "tittle": "Neurology",
+    "img": "https://i.ibb.co/m8RxkgM/neurosciencee.jpg",
+    "description": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions."
+  },
+  {
+    "id": 4,
+    "tittle": "Dental",
+    "img": "https://i.ibb.co/brPDgS1/dental2.jpg",
+    "description": "Dentists' areas of care include not only their patients' teeth and gums but also the muscles of the head, neck and jaw, the tongue, salivary glands, the nervous system of the head and neck and other areas. During a comprehensive exam."
+  },
+  {
+    "id": 5,
+    "tittle": "Orthopedics",
+    "img": "https://i.ibb.co/nBsC34x/Arthopedic.jpg",
+    "description": "Orthopedics is a branch of medicine that focuses on the care of the musculoskeletal system. A person who specializes in orthopedics is known as an orthopedist. Orthopedists use both surgical and nonsurgical approaches."
+  },
+  {
+    "id": 6,
+    "tittle": "Medicine",
+    "img": "https://i.ibb.co/WVcychM/Doctors-Medicine.jpg",
+    "description": "Medicines are chemicals or compounds used to cure, halt, or prevent disease; ease symptoms; or help in the diagnosis of illnesses. Advances in medicines have enabled doctors to cure many diseases and save lives."
+  }
+]

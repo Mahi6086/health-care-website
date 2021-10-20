@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a287ad3.chunk.css",
+    "main.js": "/static/js/main.31e0f2db.chunk.js",
+    "main.js.map": "/static/js/main.31e0f2db.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.25d77550.js",
+    "runtime-main.js.map": "/static/js/runtime-main.25d77550.js.map",
+    "static/js/2.0d2b2a53.chunk.js": "/static/js/2.0d2b2a53.chunk.js",
+    "static/js/2.0d2b2a53.chunk.js.map": "/static/js/2.0d2b2a53.chunk.js.map",
+    "static/js/3.d24bc071.chunk.js": "/static/js/3.d24bc071.chunk.js",
+    "static/js/3.d24bc071.chunk.js.map": "/static/js/3.d24bc071.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0a287ad3.chunk.css.map": "/static/css/main.0a287ad3.chunk.css.map",
+    "static/js/2.0d2b2a53.chunk.js.LICENSE.txt": "/static/js/2.0d2b2a53.chunk.js.LICENSE.txt",
+    "static/media/5303389.35075235.png": "/static/media/5303389.35075235.png",
+    "static/media/5639371.f9648c6d.png": "/static/media/5639371.f9648c6d.png",
+    "static/media/doctor-standing-with-folder-stethoscope_1291-16.2eddda45.jpg": "/static/media/doctor-standing-with-folder-stethoscope_1291-16.2eddda45.jpg",
+    "static/media/Header.css": "/static/media/doctor-with-co-workers-analyzing-x-ray_1098-581.a1a4f494.png",
+    "static/media/NotFound.css": "/static/media/error.6a6554f4.png",
+    "static/media/Info.css": "/static/media/front-view-doctor-holding-stethoscope_23-2148854111.8f8e2bfc.jpg",
+    "static/media/mail.63e98a6f.png": "/static/media/mail.63e98a6f.png",
+    "static/media/open-24-hours.4be43895.png": "/static/media/open-24-hours.4be43895.png",
+    "static/media/phone-call.706b88da.png": "/static/media/phone-call.706b88da.png",
+    "static/media/placeholder.31a3f520.png": "/static/media/placeholder.31a3f520.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25d77550.js",
+    "static/js/2.0d2b2a53.chunk.js",
+    "static/css/main.0a287ad3.chunk.css",
+    "static/js/main.31e0f2db.chunk.js"
+  ]
+}
